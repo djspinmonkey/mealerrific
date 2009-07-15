@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  mealtime: MyString
+  day: 2009-07-14
+
+two:
+  mealtime: MyString
+  day: 2009-07-14

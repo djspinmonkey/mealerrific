@@ -1,0 +1,17 @@
+<% form_for(@meal) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :mealtime %><br />
+    <%= f.text_field :mealtime %>
+  </p>
+  <p>
+    <%= f.label :day %><br />
+    <%= f.date_select :day %>
+  </p>
+  <p>
+    <%= f.submit submit_text %>
+  </p>
+<% end %>
+
+

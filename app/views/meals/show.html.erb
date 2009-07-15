@@ -1,0 +1,13 @@
+<p>
+  <b>Mealtime:</b>
+  <%=h @meal.mealtime %>
+</p>
+
+<p>
+  <b>Day:</b>
+  <%=h @meal.day %>
+</p>
+
+
+<%= link_to 'Edit', edit_meal_path(@meal) %> |
+<%= link_to 'Back', meals_path %>
